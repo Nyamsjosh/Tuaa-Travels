@@ -1,0 +1,59 @@
+{
+  "CoastalDestinations": [
+    {
+      "id": "1",
+      "location": "Diani",
+      "description": "Welcome and enjoy the white sandy beaches and the beautiful clear blue water at Diani Beach in Kenya.",
+      "location_image": "https://i.pinimg.com/564x/1e/3e/ad/1e3ead6f3f184c6de695ded5069886f1.jpg",
+      "period": "5 nights",
+      "price": "Ksh 19,000",
+      "capacity": 45,
+      "tickets_sold": 41
+    },
+    {
+      "id": "2",
+      "location": "Wasini",
+      "description": "Enjoy Kenya’s most popular snorkelling and diving boat safari to the famous Kisite Marine Park, just arond the wasini island",
+      "location_image": "https://i.pinimg.com/236x/db/75/96/db7596a4c06f18b5a9fd3fdc3f3abb1f.jpg",
+      "period": "3 nights",
+      "price": "Ksh 20,000",
+      "capacity": 22,
+      "tickets_sold": 17
+    },
+    {
+      "id": "3",
+      "location": "Malindi",
+      "description": "The Vasco da Gama pillar, located in Malindi. One of the oldest European installations in East Africa. Did you know that both the pillar and cross are made Portuguese limestone material?",
+      "location_image": "https://i.pinimg.com/564x/f9/99/24/f99924743351a2f07af4099ab4823e65.jpg",
+      "period": "7 nights",
+      "price": "Ksh 36,000",
+      "capacity": 20,
+      "tickets_sold": 15
+    },
+    {
+      "id": "4",
+      "location": "Mombasa",
+      "description": "The tour begins from cruise ships docking in Mombasa port and we bring you back to the port on time for onward travels: Fort Jesus Historical Museum, Old town, Walk in the market and lunch in a local dishes restaurant in Mombasa, Mombasa Giant elephant Tusk monument and afternoon visit to the haller park.",
+      "location_image": "https://i.pinimg.com/564x/a1/4b/7e/a14b7e0ba0aef875f1b7ed8cfe90f5c6.jpg",
+      "period": "2 nights",
+      "price": "Ksh 13,000",
+      "capacity": 42,
+      "tickets_sold": 31
+    },
+    {
+      "id": "5",
+      "location": "Watamu",
+      "description": "Watamu has the best 5 star luxury hotel in Kenya, offering exceptional services and comfort. Watamu is the place for you to be.",
+      "location_image": "https://i.pinimg.com/564x/0e/59/db/0e59dbd0d916725f6c2a12cc520fa9eb.jpg",
+      "period": "3 nights",
+      "price": "Ksh 28,000",
+      "capacity": 35,
+      "tickets_sold": 19
+    }
+  ],
+  "AdventureDestinations": [
+    {
+
+    }
+  ]
+}
