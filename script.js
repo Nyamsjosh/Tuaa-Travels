@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const apiUrl = 'http://localhost:3000/CoastalDestinations'
+  const apiUrl = 'https://tuaa-travels-backend.vercel.app/CoastalDestinations'
   const locationList = document.getElementById('coastalLocations')
   const locationImage = document.getElementById('locationImage')
   const locationName = document.getElementById('locationName')
