@@ -6,8 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const locationDescription = document.getElementById('locationDescription')
   const locationPeriod = document.getElementById('locationPeriod')
   const locationPrice = document.getElementById('locationPrice')
-  const locationTicket = document.getElementById('locationTicket')
-  const buyTicketButton = document.getElementById('buyTicketBtn')
 
   const containerMain = document.getElementById('locSection')
   containerMain.style.display = 'none'
@@ -31,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
         li.classList.add('location', 'item')
         li.className = 'locationList'
 
+        //Function to add an Event Listener on the display location function
         li.addEventListener('click', () => displayLocationDetails(location))
         locationList.appendChild(li)
       }
@@ -38,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayLocationDetails(data[0])
       }
     })
-
+  //Function for display of the location details
   function displayLocationDetails(location) {
     currentLocation = location
     locationImage.src = location.location_image
@@ -55,16 +54,17 @@ document.addEventListener('DOMContentLoaded', () => {
     form.reset()
   })
 })
+//Function to handle the feedback
 function handleFeedBack(back) {
   let p = document.createElement('p')
   let btn = document.createElement('button')
-  btn.addEventListener('click',handleDelete)
+  btn.addEventListener('click', handleDelete)
   btn.textContent = 'Delete'
   p.textContent = `${back} `
   p.appendChild(btn)
   document.querySelector('#backContainer').appendChild(p)
 }
-
-function handleDelete(e){
+//Function for deleting the event
+function handleDelete(e) {
   e.target.parentNode.remove()
 }
